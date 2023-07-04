@@ -1,0 +1,47 @@
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    border: 2 px solid red;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+ .card {
+     width: 350px;
+     height: auto;
+     display: block;
+     border: 2px solid red;
+     overflow: hidden;
+     box-shadow: 50px red;
+     border-radius: 5px;
+     margin: 5px;
+ }
+.img-container img {
+    height: 350px;
+    width: 350px;
+}
+.content {
+    text-align: center;
+    line-height: 25px;
+}
+.dowller {
+    font-weight: bold;
+    font-size: 20px;
+}
+button {
+    width: 350px;
+    height: 25px;
+   background-color: brown;
+   border-radius: 2px;
+   overflow: hidden;
+   border: none;
+}
+.revue-star {
+    color: yellow;
+}# G-project
